@@ -1,0 +1,64 @@
+body {
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+}
+
+/* navbar */
+
+.navbar {
+    background-color: black;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+}
+
+.navbar h1 {
+    color: white;
+    margin: 0;
+    font-size: 40px;
+}
+
+.navbar .links {
+    margin-left: auto;
+}
+
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+/* main */
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 200px;
+    /* background-color: black; */
+    background-image: url('../images/guitarwall.jpg');
+    
+}
+
+.leftmain h2 {
+    color: red;
+    font-size: 50px;
+    margin: 0;
+}
+
+.leftmain p {
+    color: gray;
+}
+
+.rightmain img{
+    width: 100px;
+    height: ;
+}
+
