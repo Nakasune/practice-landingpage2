@@ -4,56 +4,89 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Gitaa</title>
-    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container">
-        
-        <!-- navbar -->
-        
-        <nav class="navbar">
-            <div class="logo">
-                <h1>GITAA</h1>
+    <div class="wrapper">
+        <div id="first">
+            <nav>
+                <div id="navLogo">GITAA</div>
+                <ul>
+                    <li>ELECTRICS</li>
+                    <li>ACOUSTICS</li>
+                    <li>BASSES</li>
+                </ul>
+            </nav>
+            <div id="hero">
+                <div id="heroLeft">
+                    <h2>WELCOME TO GITAA</h2>
+                    <p>THE BEST GUITAR SHOP EVER.</p>
+                    <button class="shopNow">SHOP NOW</button>
+                </div>
+                <div id="heroRight">
+                <img src="images/heroguitar.jpg" alt="guitarwall">
+                </div>
             </div>
-
-            <div class="links">
-                <a href="#">ELECTRICS</a>
-                <a href="#">ACOUSTICS</a>
-                <a href="#">BASSES</a>
-            </div>
-        </nav>
-
-        <!-- main -->
-
-    <div class="main">
-        <div class="leftmain">
-            <h2 class="maintext">
-                WELCOME TO GGUITAR
-            </h2>
-
-            <p>
-                THIS IS THE BEST GUITAR SHOP EVER
-            </p>
-
-            <button>SHOP NOW</button>
         </div>
-
-        <div class="rightmain">
-            <img src="images/guitar.png" alt="guitar">
+    </div>
+    <div class="wrapper">
+        <div class="sectionCenter" id="second">
+            <h3>THESE ARE THE REASONS WHY WE ARE THE BEST GUITAR SHOP</h3>
+            <div id="infoWrapper">
+                <ul class="info">
+                    <li><div class="infoBox" id="box1"></div></li>
+                    <li>BEST CRAFTMANSHIP</li>
+                </ul>
+                <ul class="info">
+                    <li><div class="infoBox" id="box2"></div></li>
+                    <li>BEST CRAFTMANSHIP</li>
+                </ul>
+                <ul class="info">
+                    <li><div class="infoBox" id="box3"></div></li>
+                    <li>BEST CRAFTMANSHIP</li>
+                </ul>
+                <ul class="info">
+                    <li><div class="infoBox" id="box4"></div></li>
+                    <li>BEST CRAFTMANSHIP</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper" id="thirdWrapper">
+        <div class="sectionCenter" id="third">
+            <h6>
+                <em>
+                    "This is the best This is the best This is the best This is the best This is the best This is the best This is the best This is the best This is the best This is the best This is the best This is the best This is the best This is the best"
+                </em>
+            </h6>
+            <h4>L, The Owner</h4>
+        </div>
+    </div>
+    <div class="wrapper">
+        <div class="sectionCenter" id="fourth">
+            <div id="cta">
+                <div id="cta-left">
+                    <h4>WANT TO HEAR MORE FROM US?</h4>
+                    <p>Then hurry up and sign up.</p>
+                </div>
+                <div>
+                    <a href="js">
+                        <button class="signUp cta">Sign Up</button>
+                    </a>
+                </div>
+            </div>
         </div>
     </div>
 
+    <footer>
+        <p>L - 2022</p>
+    </footer>
 
 
-
-
-
-
-
-    </div>
 </body>
 </html>
